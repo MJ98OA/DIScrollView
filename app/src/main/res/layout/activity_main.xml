@@ -1,66 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
-
-
-    <TextView
-        android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:background="#0F171D">
+    <ImageView
+       android:layout_width="120dp"
+       android:layout_height="100dp"
+       android:layout_gravity="center"
+       android:src="@mipmap/logo"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Título"
-        android:textSize="40sp"/>
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INICIO"
+                android:backgroundTint="#0F171D"
+                >
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ORIGINALS"
+                android:backgroundTint="#0F171D">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SERIES"
+                android:backgroundTint="#0F171D">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PELÍCULAS"
+                android:backgroundTint="#0F171D">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INFANTIL"
+                android:backgroundTint="#0F171D">
+            </Button>
+
+        </LinearLayout>
+    </HorizontalScrollView>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@mipmap/elpueblo"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Series Amazon Originals y exclusivas"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:text="botoncito"/>
+            android:orientation="horizontal">
 
-            <Button
+            <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:text="botoncito"/>
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@mipmap/tread"/>
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@mipmap/star"/>
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@mipmap/robot"/>
+                </LinearLayout>
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:text="botoncito"/>
+            </HorizontalScrollView>
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:text="botoncito"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:text="botoncito"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:text="botoncito"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:text="botoncito"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:text="botoncito"/>
         </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Sigue tus series y peliculas"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@mipmap/l100"/>
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@mipmap/matrix"/>
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@mipmap/startup"/>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
     </ScrollView>
-</LinearLayout>
+
+
+    </LinearLayout>
