@@ -44,14 +44,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="PELÍCULAS"
-                android:backgroundTint="#0F171D">
-            </Button>
+                android:backgroundTint="#0F171D"/>
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="INFANTIL"
-                android:backgroundTint="#0F171D">
-            </Button>
+                android:backgroundTint="#0F171D"/>
+
 
         </LinearLayout>
     </HorizontalScrollView>
