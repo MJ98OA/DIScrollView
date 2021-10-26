@@ -27,14 +27,13 @@
                 android:layout_height="wrap_content"
                 android:text="INICIO"
                 android:backgroundTint="#0F171D"
-                >
-            </Button>
+                />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ORIGINALS"
-                android:backgroundTint="#0F171D">
-            </Button>
+                android:backgroundTint="#0F171D"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -151,6 +150,5 @@
 
     </LinearLayout>
     </ScrollView>
-
 
     </LinearLayout>
